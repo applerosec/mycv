@@ -1,0 +1,310 @@
+.about-image{
+	width:500px;
+	margin-top:-200px;
+	margin-bottom:90px;
+	margin-left:620px;
+	z-index:-1;
+}
+
+/* General Styling*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+
+body {
+	font-family: Century Gothic;
+	line-height: 1;
+	color: #333;
+	overflow-x: hidden;
+}
+
+/* Utility Classes */
+.container {
+	max-width: 1100px;
+	margin: auto;
+}
+
+.text-primary {
+	color: #3693ff;
+}
+
+/* Navbar */
+#navbar {
+	display: flex;
+	justify-content: space-between;
+	background: #008b8b;
+	color: #fff;
+	padding: 1.5rem 8rem;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	border-bottom: 3px solid #3693ff;
+}
+
+#navbar ul {
+	display: flex;
+	align-items: center;
+	list-style: none;
+
+}
+
+#navbar h2 a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#navbar li a {
+	text-decoration: none;
+	color: #faebd7;
+	padding: 1rem;
+	font-size: 1.2rem;
+	margin: 0 0.4rem;
+	border-radius: 5px;
+	transition: background-color: 0.3s;
+}
+
+#navbar li a:hover{
+	background-color: #3693ff;
+}
+
+/* Showcase Area */
+#showcase {
+	background: url(../images/cover.jpg) no-repeat center center/cover;
+	height: 89vh;
+}
+
+.showcase-content {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	position: absolute;
+	top: 350px;
+	left: 0;
+	border: 0;
+	right: 0;
+	background: rgb(0,0,0,0.6);
+	color: #fff;
+
+}
+
+.showcase-content h1 {
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}
+
+.showcase-content .btn {
+	font-size: 1.4rem;
+	padding: 1rem;
+}
+
+.btn {
+	color: #3693ff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1rem 2rem;
+	border-bottom: 1px solid #3693ff;
+	border-radius: 10px;
+	font-weight: bold;
+}
+/* Section: About */
+
+#about {
+	padding: 5rem 0;
+}
+
+#about h2 {
+	text-align: center;
+	font-size: 3rem;
+	margin-bottom: 3rem;
+	margin-right: 10%;
+}
+
+#about h3 {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	margin-right: 20%;
+}
+
+#intro p.lead {
+	margin-bottom: -1rem;
+	margin-right: 15%;
+
+}
+
+#about .-content {
+	display: flex;
+	margin-left: 5%;
+	padding: 10px 0px 10px;
+}
+
+#about .about-text,
+#about .intro-image{
+	flex: 1;
+	margin-left: 1%;
+}
+
+#intro .about-text{
+	text-align: justify;
+	margin-left: 1%
+}
+
+#about.-image img {
+	display: block;
+	margin-left: 10%;
+	width: 10%;
+	height: 400px;
+	width: : 300px;
+	border-radius: 10px;
+	margin-top: 60px;
+
+}
+
+/* Section: Education */
+
+.education .text-educ h2{
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	margin-top: 5px;
+}
+
+.education-content{
+	margin-top: 25px;
+	font-family: Calibri;
+	flex: 0 0 100%;
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0px 60px;
+}
+
+.education .education-content .box{
+	padding: -20px;
+	background-color: #ffffff;
+	flex: 0 0 calc(33.33% - 20px);
+	margin-bottom: 30px;
+	border: 1px solid #eeeeee;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+	text-align: center;
+}
+
+.education .education-content .box h5{
+	font-size: 16px;
+	font-weight: 600;
+	color: #000000;
+	margin: 0;
+}
+
+/* Section: Skills */
+
+.skills{
+	padding: 75px 100px 10px 75px;
+	background-color: #fff;
+}
+
+.skills-content{
+	flex: 0 0 50%;
+	max-width: 50%
+	padding-right: 30px;
+}
+
+.skills .img{
+	flex: 0 0 50%;
+	max-width: 50%;
+}
+
+.align-items-center{
+	align-items: center;
+}
+
+.skills .section-title p.small{
+	font-family: sans-serif;
+	display: block;
+	font-size: 14px;
+	color: #838383;
+	font-weight: 400;
+	letter-spacing: 2px;
+	padding-top: -10px;
+}
+
+.skills .section-title p.text{
+	font-size: 15px;
+	font-weight: 400px;
+	line-height: 24px;
+	color: #838383;
+	margin: 10px 0 10px;
+}
+
+.skill-box{
+	flex: 0 0 100%;
+	max-width: 100%;
+	margin-bottom: 30px;
+}
+
+.skill-box h6{
+	font-size: 18px;
+	font-weight: 500px;
+	color: #000000;
+	margin: 0 0 8px;
+}
+
+.container-contacts {
+	height:300px;
+	border:px solid black;
+	text-align:center;
+	justify-content:center;
+	background:skyblue;
+	color:#fff;
+
+}
+
+.container-contacts h1{
+	position:relative;
+	top:30px;
+}
+
+
+.cbox{
+	margin-top:30px;
+	height:100px;
+	width:400px;
+	float:left;
+	display:block;
+	line-height:30px;
+	margin-left:20px;
+}
+
+.cbox a{
+	text-decoration:none;
+	color:blue;
+}
+
+.row-contacts{
+	margin-top:40px;
+	justify-content:center;
+	display:flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
